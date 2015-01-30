@@ -1,13 +1,14 @@
 # myApp/Gruntfile.js
-### Purpose
+### Назначение
 
-Sails uses [Grunt](http://gruntjs.com) for asset management. This file contains configuration information for the GRUNT tasks that Sails uses for this purpose.
+Sails использует [Grunt](http://gruntjs.com) для управления файлами ресурсов. Этот файл содержит информацию для задач GRUNT-а которые Sails использует для своих нужд.
 
-Sails' integration with Grunt is fully customizable but for most use cases, this file should remain unchanged.  Instead, put your custom logic in `myApp/tasks/`.
+Интеграция Sails с Grunt полностью настраиваемая, но в большинстве случаев этот файл лучше не трогать. Вместо этого, используйте `myApp/tasks/` для задания своей произвольной логики.
 
 
-### More Info
-> More information on using Grunt to work with static assets: http://gruntjs.com/configuring-tasks
+### Дополнительная информация
+> Дополнительная информации о том как использовать Grunt для работы со статическими файлами ресурсов: http://gruntjs.com/configuring-tasks
+
 
 <docmeta name="uniqueID" value="Gruntfilejs375150">
 <docmeta name="displayName" value="Gruntfile.js">
@@ -18,15 +19,15 @@ Sails' integration with Grunt is fully customizable but for most use cases, this
 /**
  * Gruntfile
  *
- * This Node script is executed when you run `grunt` or `sails lift`.
- * It's purpose is to load the Grunt tasks in your project's `tasks`
- * folder, and allow you to add and remove tasks as you see fit.
- * For more information on how this works, check out the `README.md`
- * file that was generated in your `tasks` folder.
+ * Этот сценарий запускается когда вы запускаете команду `grunt` или `sails lift`.
+ * Его назначение - загрузка задач Grunt-а в каталог `tasks` вашего проекта
+ * чтобы вы могли добавлять или удалять задачи как вы считаете нужным.
+ * Для дополнительной информации о том как это работает, смотрите файл `README.md` 
+ * сгенерированный в вашей папке `tasks`
  *
- * WARNING:
- * Unless you know what you're doing, you shouldn't change this file.
- * Check out the `tasks` directory instead.
+ * ВНИМАНИЕ:
+ * Если вы не знаете, что вы делаете, вы не должны изменять этот файл
+ * Вместо этого, лучше ознакомьтесь с каталогом `tasks`.
  */
 
 module.exports = function(grunt) {
